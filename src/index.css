@@ -1,13 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
+  overflow: hidden
 }
+:root {
+  /* fonts */
+  --drop-menu-menu: Poppins;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font sizes */
+  --drop-menu-menu-size: 12px;
+
+  /* Colors */
+  --white: #fff;
+  --blues-gray2: #b8bbc2;
+  --color-darkslategray-100: #014762;
+  --black: #313144;
+
+  /* Paddings */
+  --padding-2xs: 11px;
+  --padding-5xl: 24px;
+  --padding-lg: 18px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-xs: 12px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --drop-menu-menu: Poppins;
+  --font-inter: Inter;
+  --font-sarabun: Sarabun;
+
+  /* font sizes */
+  --drop-menu-menu-size: 12px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --black: #313144;
+  --white: #fff;
+  --blues-gray2: #b8bbc2;
+  --color-darkgray-100: #b3b3b3;
+  --color-darkgray-200: #b1b1b1;
+  --color-forestgreen: #448e1f;
+
+  /* Paddings */
+  --padding-2xs: 11px;
+  --padding-5xl: 24px;
+  --padding-lg: 18px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
 }
